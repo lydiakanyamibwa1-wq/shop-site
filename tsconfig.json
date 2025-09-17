@@ -10,7 +10,8 @@
     "resolveJsonModule": true,
     "outDir": "./dist",
     "rootDir": "./src",
-    "jsx": "react-jsx"
+  "jsx": "react-jsx",
+  "lib": ["DOM", "ES2016", "ESNext"]
   },
   "include": ["src"],
   "exclude": ["node_modules", "dist"]
