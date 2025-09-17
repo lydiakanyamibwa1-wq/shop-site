@@ -4,8 +4,8 @@ import { Search, Heart, ShoppingCart,  ChevronRight, ChevronLeft, Menu, X } from
 import ProductCarouselDemo from "./HotDealsCarousel";
 import BestSellingProducts from './bestSellingProducts';
 import Freeshipping from './Freeshipping';
-import Shop from "./Shop.tsx";
-import Blogs from "./Blogs.tsx";
+import Shop from "./Shop";
+import Blogs from "./Blogs";
 import Elements from "./Elements";
 import image1 from '../assets/image.png';
 import image2 from '../assets/image2.jpg';
