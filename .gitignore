@@ -7,18 +7,36 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# Node modules and build
+node_modules/
+dist/
+dist-ssr/
 *.local
 
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
-.idea
+.idea/
 .DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# Ignore binaries, archives, and documents
+*.dll
+*.exe
+*.lnk
+*.zip
+*.rar
+*.apk
+*.whtt
+*.pdf
+*.docx
+*.ini
+
+# Ignore images if not needed
+*.jpg
+*.png
+*.gif
